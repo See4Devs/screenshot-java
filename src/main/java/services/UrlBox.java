@@ -17,21 +17,7 @@ public class UrlBox {
         this.urlboxKey = urlboxKey;
         this.urlboxSecret = urlboxSecret;
     }
-    public String getUrlboxKey() {
-        return urlboxKey;
-    }
 
-    public void setUrlboxKey(String urlboxKey) {
-        this.urlboxKey = urlboxKey;
-    }
-
-    public String getUrlboxSecret() {
-        return urlboxSecret;
-    }
-
-    public void setUrlboxSecret(String urlboxSecret) {
-        this.urlboxSecret = urlboxSecret;
-    }
     public String generateUrl(String url, Map<String, Object> options) throws UnsupportedEncodingException {
 
         String encodedUrl = URLEncoder.encode(url, "UTF-8");
