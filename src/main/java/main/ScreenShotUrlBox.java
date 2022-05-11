@@ -43,8 +43,5 @@ public class ScreenShotUrlBox {
         } catch (UnsupportedEncodingException ex) {
             throw new RuntimeException("Problem with url encoding", ex);
         }
-
-
-
     }
 }
